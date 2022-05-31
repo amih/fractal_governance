@@ -17,4 +17,4 @@ def respect(rank: int) -> int:
     """Return the units of Respect for the given rank"""
     if rank < 1:
         raise ValueError(f"rank={rank} must be >= 1")
-    return fibonacci(rank + 2)
+    return fibonacci(rank + 1)
